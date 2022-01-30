@@ -1,5 +1,3 @@
-<script src="{{ 'main.js' | asset_url }}" async></script>
-
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var initParameters = {
@@ -14,8 +12,17 @@
 {
   "name": "Example App Block",
   "templates": [
-    "product"
+    "index", "product"
   ],
-  "target": "section"
+  "target": "section",
+  "javascript": "main.js",
+  "settings": [
+    {
+      "id": "product",
+      "type": "product",
+      "label": "Product",
+      "autofill": true
+    }
+  ]
 }
 {% endschema %}
