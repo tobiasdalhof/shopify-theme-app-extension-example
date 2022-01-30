@@ -1,0 +1,21 @@
+<script src="{{ 'main.js' | asset_url }}" async></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var initParameters = {
+      shopPermanentDomain: '{{ shop.permanent_domain }}',
+      productId: '{{ product.id }}'
+    };
+    window['theme-app-extension-example'].init(initParameters);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Example App Block",
+  "templates": [
+    "product"
+  ],
+  "target": "section"
+}
+{% endschema %}
