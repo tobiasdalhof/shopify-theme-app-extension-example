@@ -1,3 +1,3 @@
-# shopify-theme-app-extension-starter
+# shopify-theme-app-extension-example
 
-# WIP
+WIP
