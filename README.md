@@ -1,3 +1,3 @@
-# theme-app-extension-example
+# shopify-theme-app-extension-starter
 
-Example theme app extension for Shopify with Vite (vanilla-ts) to enable TypeScript for assets.
+# WIP
